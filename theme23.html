@@ -4,7 +4,8 @@
  |
  |  Theme #23 by raiidens (@ tumblr)
  |  Published September 2017
- |  Ver. 1.00
+ |  Updated April 2018
+ |  Ver. 1.01
  |
  |  Edit as much as you like, but please do not
  |  claim as your own work, and leave credit somewhere.
@@ -676,7 +677,7 @@ $(document).tooltip({
 		{block:IfLink7Title}<a href="{text:Link 7 URL}"><li>{text:Link 7 Title}</li></a>{/block:IfLink7Title}
 		{block:IfLink8Title}<a href="{text:Link 8 URL}"><li>{text:Link 8 Title}</li></a>{/block:IfLink8Title}
 		{/block:IfNotDisableNavigation}
-		{block:IfNotDisableSearch}<li class="search"><i class="fa fa-search" aria-hidden="true"></i><form action="/search" method="get"><input type="text" value="{SearchQuery}" /></form></li>{/block:IfNotDisableSearch}
+		{block:IfNotDisableSearch}<li class="search"><i class="fa fa-search" aria-hidden="true"></i><form action="/search" method="get" id="search-form"><input type="text" name="q" value="{SearchQuery}" /></form></li>{/block:IfNotDisableSearch}
 	</ul>
 </div>
 
